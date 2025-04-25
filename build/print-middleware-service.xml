@@ -1,0 +1,8 @@
+<service>
+  <id>PrintMiddleware</id>
+  <name>PrintMiddleware</name>
+  <description>Serviço local para impressão de etiquetas</description>
+  <executable>C:\PrintMiddleware\print-middleware.exe</executable>
+  <logpath>C:\PrintMiddleware\logs</logpath>
+  <log mode="roll"/>
+</service>

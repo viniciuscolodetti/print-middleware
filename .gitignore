@@ -1,0 +1,30 @@
+# Node modules
+/node_modules/
+
+# Build outputs
+build/print-middleware.exe
+build/SumatraPDF.exe
+build/*.log
+build/*.pid
+build/*.out.log
+build/*.err.log
+dist/
+
+# Labels 
+build/labels/
+labels/
+
+# Cache e temporários
+/.turbo/
+/.cache/
+/*.tsbuildinfo
+
+# Editor settings
+.vscode/
+
+# Windows trash
+Thumbs.db
+Desktop.ini
+
+# SumatraPDF settings
+build/SumatraPDF-settings.txt
