@@ -6,6 +6,14 @@ O formato segue o padrão [Conventional Commits](https://www.conventionalcommits
 
 ---
 
+## [1.1.0] - 2025-04-28
+
+### ✨ Alterações
+- Substituição do motor de impressão SumatraPDF pelo PDFtoPrinter
+- Atualização dos scripts `install.bat` e `uninstall.bat`
+- Atualização da documentação (`README.md`, `.release-notes.md`, `CHANGELOG.md`)
+- Melhoria na listagem de impressoras (informações de status e jobs)
+
 ## [1.0.0] - 2025-04-25
 
 ### ✨ Features

@@ -38,8 +38,8 @@ if exist "%EXEC_PATH%\print-middleware-service.xml" (
     del /f "%EXEC_PATH%\print-middleware-service.xml"
 )
 
-if exist "%EXEC_PATH%\SumatraPDF.exe" (
-    del /f "%EXEC_PATH%\SumatraPDF.exe"
+if exist "%EXEC_PATH%\PDFtoPrinter.exe" (
+    del /f "%EXEC_PATH%\PDFtoPrinter.exe"
 )
 
 rem Deletar pastas labels e logs

@@ -9,9 +9,9 @@ Middleware local desenvolvido em Node.js com Express para impressão automática
 
 ## 🚀 Funcionalidades
 
-- Impressão silenciosa de PDFs via [SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html)
+- Impressão silenciosa de PDFs via [PDFtoPrinter](https://github.com/emendelson/pdftoprinter)
 - Impressão para impressora padrão ou impressora específica
-- Listagem de impressoras instaladas na máquina
+- Listagem de impressoras instaladas na máquina com status
 - Logs com timestamp, nome do usuário e nome do arquivo impresso
 - Serviço Windows autoinstalável para execução automática
 - Rota de health check (`/`) para monitoramento rápido
@@ -24,7 +24,7 @@ Middleware local desenvolvido em Node.js com Express para impressão automática
 
 - Windows 10 ou 11
 - Node.js 18+ para build (não é necessário Node.js após gerar o `.exe`)
-- [SumatraPDF.exe portátil](https://www.sumatrapdfreader.org/free-pdf-reader.html)
+- [PDFtoPrinter.exe portátil](https://github.com/emendelson/pdftoprinter)
 - Impressoras instaladas no Windows
 
 ---
@@ -34,7 +34,7 @@ Middleware local desenvolvido em Node.js com Express para impressão automática
 ```
 C:\PrintMiddleware\
 ├── print-middleware.exe          # Executável gerado (após build)
-├── SumatraPDF.exe                # Visualizador PDF portátil
+├── PDFtoPrinter.exe                # Visualizador PDF portátil
 ├── print-middleware-service.exe  # Wrapper de serviço (WinSW)
 ├── print-middleware-service.xml  # Configuração do serviço
 ├── install.bat                   # Script de instalação

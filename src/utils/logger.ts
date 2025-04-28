@@ -1,5 +1,10 @@
 export function log(message: string) {
   const now = new Date()
-  const timestamp = now.toISOString().replace('T', ' ').substring(0, 19)
+  
+  const timestamp = now.toLocaleString('sv-SE', {
+    timeZone: 'America/Sao_Paulo',
+    hour12: false,
+  }).replace('T', ' ')
+
   console.log(`[${timestamp}] ${message}`)
 }
